@@ -38,7 +38,8 @@ void check_digit(int nb)
     {
         remainder = count_digit_check(nb, i);
         if(remainder > 0)
-            cout << "Digit " << i << " Frequency is " << remainder << endl;
+            cout << "Digit " << i << " Frequency is " << remainder 
+                << " Time(s)." << endl;
         i++;
     }
 }
