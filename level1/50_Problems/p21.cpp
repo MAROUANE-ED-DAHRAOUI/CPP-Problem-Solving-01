@@ -50,6 +50,7 @@ void    print_result(int num)
     cout << endl << "------------------------------\n";
     cout << nb_check << " Is repeated " << cnt << " time(s).\n";
     cout << "________________________________\n";
+    delete[] arr;
 }
 
 int main()
