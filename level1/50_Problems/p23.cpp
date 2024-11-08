@@ -38,6 +38,7 @@ void    fill_array(int arr[100], int nb_elements)
         i++;
     }
     cout << "\nMax number is : " << max << endl;
+    
 }
 
 int main()
